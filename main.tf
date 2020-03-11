@@ -13,5 +13,5 @@ provider "template" {
 
 #VPC
 resource "aws_vpc" "temp" {
-  cidr_block = "10.20.0.0/16"
+  cidr_block = "10.30.0.0/16"
 }
